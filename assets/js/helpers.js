@@ -178,4 +178,4 @@ module.exports = __webpack_require__(/*! /home/poekew/Documents/001-Daniel/Front
 
 /***/ })
 
-},[[0,"/js/manifest","/js/vendor"]]]);
+},[[0,"/js/manifest"]]]);

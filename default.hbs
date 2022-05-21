@@ -20,9 +20,18 @@
     {{!-- This #block helper will try to preload page-specific assets --}}
     {{{block "preload"}}}
 
+    {{!-- Google Fonts --}}
+
+    {{!--  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  --}}
+    {{!--  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" onload="this.onload=null;this.rel='stylesheet'">  --}}
+    {{!--  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet" onload="this.onload=null;this.rel='stylesheet'">  --}}
+    
+    {{!--  <noscript>  --}}
+        {{!--  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" onload="this.onload=null;this.rel='stylesheet'">  --}}
+        {{!--  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet" onload="this.onload=null;this.rel='stylesheet'">  --}}
+    {{!--  </noscript>  --}}
     {{!-- Styles & Scripts --}}
     <style>
-      /* These font-faces are here to make fonts work if the Ghost instance is installed in a subdirectory */
 
       /* source-sans-pro-regular */
       @font-face {
