@@ -33,6 +33,28 @@
     {{!-- Styles & Scripts --}}
     <style>
 
+       /* Poppins Regular */
+      @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('poppins-regular'),
+            url("{{asset 'fonts/poppins/poppins-v20-latin-regular.woff2'}}") format('woff2'),
+            url("{{asset 'fonts/poppins/poppins-v20-latin-regular.woff'}}") format('woff');
+      }
+
+      @font-face {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('barlow-regular'),
+            url("{{asset 'fonts/barlow/barlow-v12-latin-regular.woff2'}}") format('woff2'),
+            url("{{asset 'fonts/barlow/barlow-v12-latin-regular.woff'}}") format('woff');
+      }
+
+
       /* source-sans-pro-regular */
       @font-face {
         font-family: 'Source Sans Pro';

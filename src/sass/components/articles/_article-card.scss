@@ -252,7 +252,7 @@
 
 .m-article-card__title {
   color: var(--titles-color);
-  font-family: "Poppins";
+  font-family: "Poppins",  "Source Sans Pro", Helvetica, Arial, sans-serif;
   letter-spacing: 0.4px;
   line-height: 1.3;
   font-size: 1.250rem;
@@ -276,7 +276,7 @@
   display: flex; 
   align-items: center;
   color: var(--titles-color);
-  font-family: "Barlow",'Source Sans Pro' ;
+  font-family: "Barlow", "Source Sans Pro", Helvetica, Arial, sans-serif ;
   letter-spacing: 0.2px;
   font-size: 0.875rem;
 
