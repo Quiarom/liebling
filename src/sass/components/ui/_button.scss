@@ -32,6 +32,9 @@
     }
   }
 
+  &.m-button__scroll {
+    scroll-behavior: smooth;
+  }
  
 
   &.filled__blue {
