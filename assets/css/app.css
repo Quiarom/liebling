@@ -705,7 +705,7 @@ textarea,
 /** Icons */
 [class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
+  font-family: "poppins", "icomoon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -905,7 +905,7 @@ body {
   min-height: 100vh;
   color: var(--primary-foreground-color);
   font-size: 1rem;
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-family: "Barlow", "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-display: swap;
   overflow-x: hidden;
   background-color: var(--background-color);
@@ -1049,14 +1049,19 @@ fieldset {
   position: relative;
   background-color: transparent;
   height: 50px;
-  width: 162px;
+  width: auto;
   transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
 }
-.m-button.about {
+.m-button.m-button__about {
   background-color: transparent !important;
   border: 1px solid white;
   color: #fff !important;
   margin-right: 14px !important;
+}
+@media only screen and (min-width: 48rem) {
+  .m-button.m-button__about {
+    margin-left: 0;
+  }
 }
 .m-button.filled__blue {
   background-color: #0066FF !important;
@@ -1069,6 +1074,11 @@ fieldset {
 .m-button.filled__blue:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px var(--button-shadow-color-hover), 0 0 0 transparent;
+}
+@media only screen and (min-width: 48rem) {
+  .m-button.filled__blue {
+    margin-left: 0;
+  }
 }
 .m-button.outlined {
   color: var(--titles-color);
@@ -2635,9 +2645,9 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
 .m-article-card__title {
   color: var(--titles-color);
   font-family: "Poppins", "Source Sans Pro", Helvetica, Arial, sans-serif;
-  letter-spacing: 0.4px;
-  line-height: 1.3;
-  font-size: 1.25rem;
+  letter-spacing: -0.035em;
+  line-height: 28px;
+  font-size: 19px;
   font-weight: 600;
   margin-top: 15px;
 }

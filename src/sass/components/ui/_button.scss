@@ -15,18 +15,24 @@
   position: relative;
   background-color: transparent;
   height: 50px;
-  width: 162px;
+  width: auto;
   @extend .no-appearance;
   @extend .focusable;
   @include transition(all .25s cubic-bezier(.02,.01,.47,1));
 
   // Button "Conocer más"
-  &.about {
+  &.m-button__about {
     background-color: transparent !important; 
     border: 1px solid white;
     color: $white !important;
     margin-right: 14px !important;
+
+    @include respond-to('medium') {
+      margin-left: 0;
+    }
   }
+
+ 
 
   &.filled__blue {
     background-color: #0066FF !important;
@@ -40,6 +46,10 @@
     &:hover {
       @include transform(translateY(-2px));
       @include bs(0 4px 8px var(--button-shadow-color-hover));
+    }
+
+    @include respond-to('medium') {
+      margin-left: 0;
     }
   }
 
