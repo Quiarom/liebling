@@ -1048,18 +1048,21 @@ fieldset {
   position: relative;
   background-color: transparent;
   height: 50px;
-  width: 130px;
+  width: 162px;
   transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
 }
 .m-button.about {
   background-color: transparent !important;
   border: 1px solid white;
   color: #fff !important;
+  margin-right: 14px !important;
 }
 .m-button.filled__blue {
   background-color: #0066FF !important;
   border-radius: 5px;
   color: #fff !important;
+  width: 142px !important;
+  margin-left: 14px !important;
   box-shadow: 0 2px 4px var(--button-shadow-color-normal), 0 0 0 transparent;
 }
 .m-button.filled__blue:hover {

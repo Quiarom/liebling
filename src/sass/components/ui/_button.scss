@@ -14,7 +14,7 @@
   position: relative;
   background-color: transparent;
   height: 50px;
-  width: 130px;
+  width: 162px;
   @extend .no-appearance;
   @extend .focusable;
   @include transition(all .25s cubic-bezier(.02,.01,.47,1));
@@ -24,12 +24,15 @@
     background-color: transparent !important; 
     border: 1px solid white;
     color: $white !important;
+    margin-right: 14px !important;
   }
 
   &.filled__blue {
     background-color: #0066FF !important;
     border-radius: 5px;
     color: $white !important;
+    width: 142px !important; 
+    margin-left: 14px !important;
 
     @include bs(0 2px 4px var(--button-shadow-color-normal));
 
