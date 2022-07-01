@@ -251,7 +251,7 @@
 }
 
 .m-article-card__title {
-  color: var(--titles-color);
+  color: var(--titles-color) !important;
   font-family: "Poppins",  "Source Sans Pro", Helvetica, Arial, sans-serif;
   letter-spacing: -0.035em;
   line-height: 28px;
