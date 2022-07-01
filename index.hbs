@@ -36,13 +36,13 @@ into the {body} of the default.hbs template --}}
     {{else}}
       {{#if @labs.members}}
         <a href="{{@site.url}}/nosotros" class="m-button filled m-button__about">{{t "Nosotros"}}</a>
-        <a href="{{@site.url}}/newsletter" class="m-button filled__blue js-newsletter">{{t "↓  Leer"}}</a>
+        <a href="#posts-sections" class="m-button filled__blue button__scroll js-newsletter">{{t "↓  Leer"}}</a>
         
       {{/if}}
     {{/if}}
   </div>
   </section>
-  <div class="l-content">
+  <div class="l-content" id="posts-sections">
     <div class="l-wrapper" data-aos="fade-up" data-aos-delay="300">
       <div class="l-grid centered">
         {{#get "posts" filter="featured:true" include="authors,tags" limit="5" as |featured|}}

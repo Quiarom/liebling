@@ -537,7 +537,7 @@ textarea,
   --secondary-foreground-color: #000;
   --primary-subtle-color: #0470ee;
   --secondary-subtle-color: #f4f8fd;
-  --titles-color: #333;
+  --titles-color: #000 !important;
   --link-color: #133467;
   --primary-border-color: #9b9b9b;
   --secondary-border-color: aliceblue;
@@ -564,7 +564,7 @@ textarea,
   --secondary-foreground-color: #fff;
   --primary-subtle-color: #2c2fe6;
   --secondary-subtle-color: #141920;
-  --titles-color: #b4b4b4;
+  --titles-color: #fff !important;
   --link-color: #b6b7f6;
   --primary-border-color: #1d1d1d;
   --secondary-border-color: #0f0f0f;
@@ -898,6 +898,10 @@ textarea,
 }
 
 /** Global styles */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -1062,6 +1066,9 @@ fieldset {
   .m-button.m-button__about {
     margin-left: 0;
   }
+}
+.m-button.m-button__scroll {
+  scroll-behavior: smooth;
 }
 .m-button.filled__blue {
   background-color: #0066FF !important;
@@ -2643,7 +2650,7 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
 }
 
 .m-article-card__title {
-  color: var(--titles-color);
+  color: var(--titles-color) !important;
   font-family: "Poppins", "Source Sans Pro", Helvetica, Arial, sans-serif;
   letter-spacing: -0.035em;
   line-height: 28px;
