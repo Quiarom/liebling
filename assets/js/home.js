@@ -52,7 +52,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/poekew/Documents/001-Daniel/Frontend/handlebarsJS-world/liebling/src/js/home.js */"./js/home.js");
+module.exports = __webpack_require__(/*! /home/quiarom/Documents/projects-world/liebling/src/js/home.js */"./js/home.js");
 
 
 /***/ })

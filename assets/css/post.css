@@ -871,13 +871,30 @@
   font-size: 1rem;
   font-weight: 600;
   border-radius: 5px;
-  padding: 13px 25px;
+  padding: 14px 30px;
   cursor: pointer;
   outline: 0;
   border: 0;
   position: relative;
   background-color: transparent;
+  height: 50px;
+  width: 130px;
   transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+.m-button.about, .l-post-content button.about:not(.m-icon-button):not(.kg-video-card button):not(.kg-audio-card button), .l-post-content .kg-button-card a.about.kg-btn, .l-post-content .kg-header-card .about.kg-header-card-button, .l-post-content .kg-product-card .about.kg-product-card-button {
+  background-color: transparent !important;
+  border: 1px solid white;
+  color: #fff !important;
+}
+.m-button.filled__blue, .l-post-content button.filled__blue:not(.m-icon-button):not(.kg-video-card button):not(.kg-audio-card button), .l-post-content .kg-button-card a.filled__blue.kg-btn, .l-post-content .kg-header-card .filled__blue.kg-header-card-button, .l-post-content .kg-product-card .filled__blue.kg-product-card-button {
+  background-color: #0066FF !important;
+  border-radius: 5px;
+  color: #fff !important;
+  box-shadow: 0 2px 4px var(--button-shadow-color-normal), 0 0 0 transparent;
+}
+.m-button.filled__blue:hover, .l-post-content button.filled__blue:hover:not(.m-icon-button):not(.kg-video-card button):not(.kg-audio-card button), .l-post-content .kg-button-card a.filled__blue.kg-btn:hover, .l-post-content .kg-header-card .filled__blue.kg-header-card-button:hover, .l-post-content .kg-product-card .filled__blue.kg-product-card-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px var(--button-shadow-color-hover), 0 0 0 transparent;
 }
 .m-button.outlined, .l-post-content button.outlined:not(.m-icon-button):not(.kg-video-card button):not(.kg-audio-card button), .l-post-content .kg-button-card a.outlined.kg-btn, .l-post-content .kg-header-card .outlined.kg-header-card-button, .l-post-content .kg-product-card .outlined.kg-product-card-button {
   color: var(--titles-color);

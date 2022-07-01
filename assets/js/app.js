@@ -398,7 +398,7 @@ var makeImagesZoomable = function makeImagesZoomable($, mediumZoom) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/poekew/Documents/001-Daniel/Frontend/handlebarsJS-world/liebling/src/js/app.js */"./js/app.js");
+module.exports = __webpack_require__(/*! /home/quiarom/Documents/projects-world/liebling/src/js/app.js */"./js/app.js");
 
 
 /***/ })

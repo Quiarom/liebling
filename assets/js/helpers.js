@@ -166,14 +166,14 @@ var makeImagesZoomable = function makeImagesZoomable($, mediumZoom) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/poekew/Documents/001-Daniel/Frontend/handlebarsJS-world/liebling/src/js/helpers.js */"./js/helpers.js");
-__webpack_require__(/*! /home/poekew/Documents/001-Daniel/Frontend/handlebarsJS-world/liebling/src/sass/app.scss */"./sass/app.scss");
-__webpack_require__(/*! /home/poekew/Documents/001-Daniel/Frontend/handlebarsJS-world/liebling/src/sass/home.scss */"./sass/home.scss");
-__webpack_require__(/*! /home/poekew/Documents/001-Daniel/Frontend/handlebarsJS-world/liebling/src/sass/listing.scss */"./sass/listing.scss");
-__webpack_require__(/*! /home/poekew/Documents/001-Daniel/Frontend/handlebarsJS-world/liebling/src/sass/post.scss */"./sass/post.scss");
-__webpack_require__(/*! /home/poekew/Documents/001-Daniel/Frontend/handlebarsJS-world/liebling/src/sass/newsletter.scss */"./sass/newsletter.scss");
-__webpack_require__(/*! /home/poekew/Documents/001-Daniel/Frontend/handlebarsJS-world/liebling/src/sass/tags.scss */"./sass/tags.scss");
-module.exports = __webpack_require__(/*! /home/poekew/Documents/001-Daniel/Frontend/handlebarsJS-world/liebling/src/sass/404.scss */"./sass/404.scss");
+__webpack_require__(/*! /home/quiarom/Documents/projects-world/liebling/src/js/helpers.js */"./js/helpers.js");
+__webpack_require__(/*! /home/quiarom/Documents/projects-world/liebling/src/sass/app.scss */"./sass/app.scss");
+__webpack_require__(/*! /home/quiarom/Documents/projects-world/liebling/src/sass/home.scss */"./sass/home.scss");
+__webpack_require__(/*! /home/quiarom/Documents/projects-world/liebling/src/sass/listing.scss */"./sass/listing.scss");
+__webpack_require__(/*! /home/quiarom/Documents/projects-world/liebling/src/sass/post.scss */"./sass/post.scss");
+__webpack_require__(/*! /home/quiarom/Documents/projects-world/liebling/src/sass/newsletter.scss */"./sass/newsletter.scss");
+__webpack_require__(/*! /home/quiarom/Documents/projects-world/liebling/src/sass/tags.scss */"./sass/tags.scss");
+module.exports = __webpack_require__(/*! /home/quiarom/Documents/projects-world/liebling/src/sass/404.scss */"./sass/404.scss");
 
 
 /***/ })
