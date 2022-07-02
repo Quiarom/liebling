@@ -94,21 +94,43 @@ into the {body} of the default.hbs template --}}
         </div>
         {{!-- Email subscribe form at the bottom of the page --}}
         {{#if @labs.members}}
-          <section class="m-subscribe-section js-newsletter">
-            <div class="l-wrapper in-post">
-              <div class="m-subscribe-section__content">
-                <div class="m-subscribe-section__text">
-                  <h4 class="m-subscribe-section__title">{{t "Subscribe to our newsletter"}}</h4>
-                  <p class="m-subscribe-section__description">
-                    {{t "Get the latest posts delivered right to your inbox."}}
-                  </p>
-                </div>
-                <div class="m-subscribe-section__form">
-                  {{> "newsletter-form"}}
-                </div>
-              </div>
-            </div>
-          </section>
+          <section class="section-newsletter__flex js-newsletter main-wrap">
+
+  <div class="section-newsletter">
+
+    <picture>
+      <img src="{{asset 'images/paper-plane.png' }}" alt="avión de papel">
+    </picture>
+
+    <h1>¡Sabemos que no siempre hay tiempo!</h1>
+
+    <p class="section-newsletter-description">Suscríbete a nuestro Newsletter y recibe un resumen semanal de todo lo que pasa en el mundo tecnológico</p>
+    
+    <form class="section-newsletter-form" data-members-form="subscribe" data-members-form>
+      
+      <div class="section-newsletter-form-container">
+          
+        <input data-members-email data-members-email="" id="newsletter-input" type="email" class="newsletter-search" placeholder="Coloca tu correo electrónico acá :)" required>
+        <button id="newsletter-button" type="submit" class="m-button-submit m-button filled__blue"> 
+          {{t "Enviar"}}
+        </button>
+
+      </div>
+
+      <p class="m-subscribe__success success-message section-newsletter-description">
+        ¡Gracias!, Ahora revisa tu bandeja de entrada y haz clic en el enlace para confirmar tu suscripción.
+      </p>
+      <p class="m-subscribe__invalid invalid-message section-newsletter-description">
+        Por favor, introduzca una dirección de correo electrónico válida.
+      </p>
+      <p class="m-subscribe__error error-message section-newsletter-description">
+        Se ha producido un error al enviar el correo electrónico, inténtelo más tarde.
+      </p>
+
+    </form>
+  </div>
+
+</section>
         {{/if}}
         <section class="m-author">
           <div class="m-author__content">

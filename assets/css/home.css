@@ -430,3 +430,7 @@
 .section-newsletter-form.invalid .invalid-message {
   display: block;
 }
+
+.section-newsletter-form .invalid-message {
+  display: none;
+}
