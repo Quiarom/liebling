@@ -8,6 +8,7 @@ It can be used also as the home page or the default page.
   <link rel="preload" href="{{asset "css/home.css"}}" as="style" />
   <link rel="preload" href="{{asset "css/listing.css"}}" as="style" />
   <link rel="preload" href="{{asset "js/home.js"}}" as="script" />
+  <link rel="preload" href="{{asset "js/post.js"}}" as="script" />
 {{/contentFor}}
 
 {{!-- This block loads specific styles for the index page --}}
@@ -114,6 +115,16 @@ into the {body} of the default.hbs template --}}
     {{pagination}}
   </div>
 </main>
+
+<section class="section-newsletter__flex js-newsletter main-wrap">
+  <div class="section-newsletter">
+    <picture>
+      <img src="{{asset 'images/paper-plane.png' }}" alt="avión de papel">
+    </picture>
+    <h1>¡Sabemos que no siempre hay tiempo!</h1>
+    <p>Suscríbete a nuestro Newsletter y recibe un resumen semanal de todo lo que pasa en el mundo tecnológico</p>
+  </div>
+</section>
 
 {{!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs --}}
 {{#contentFor "scripts"}}
