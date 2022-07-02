@@ -36,7 +36,7 @@ into the {body} of the default.hbs template --}}
       <a href="{{@custom.custom_cta_url}}" class="m-button filled">{{@custom.custom_cta_text}}</a>
     {{else}}
       {{#if @labs.members}}
-        <a href="{{@site.url}}/nosotros" class="m-button filled m-button__about">{{t "Nosotros"}}</a>
+        {{!-- <a href="{{@site.url}}/nosotros" class="m-button filled m-button__about">{{t "Nosotros"}}</a> --}}
         <a href="#posts-sections" class="m-button filled__blue button__scroll js-newsletter">{{t "↓  Leer"}}</a>
         
       {{/if}}
