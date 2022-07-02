@@ -3,12 +3,13 @@
 
 @import "components/articles/featured-slider";
 @import "components/articles/featured-article";
+@import "components/subscribe/subscribe-section";
 
 .section-newsletter__flex {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 25px;
+  padding: 0px 20px 20px 20px;
 }
 
 .section-newsletter {
@@ -27,6 +28,27 @@
   text-align: center;
 }
 
+.section-newsletter-form-container {
+  position: relative;
+  display: flex;
+  padding-top: 33px;
+}
+
+.newsletter-search {
+  width: 346px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #CACACA ;
+  border-radius: 6px;
+  padding: 13px 13px 13px 13px;
+  background-color: #141D2E; 
+}
+
+.newsletter-search:focus {
+  color: #dadada;
+}
+
 .section-newsletter h1 {
   color: #fff !important;
   font-family: "Poppins", "Source Sans Pro", Helvetica, Arial, sans-serif;
@@ -37,12 +59,31 @@
   margin-top: 0;
 }
 
-.section-newsletter p {
+.section-newsletter .section-newsletter-description {
   color: white;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: -0.035em;
-  margin-top: 10px;
+  margin-top: 12px;
+}
+
+.section-newsletter-form .success-message {
+  display: none;
+}
+
+
+.section-newsletter-form .error-message {
+  display: none;
+}
+
+.section-newsletter-form .invalid-message {
+  display: none;
+}
+
+.section-newsletter-form.error .error-message,
+.section-newsletter-form.success .success-message,
+.section-newsletter-form.invalid .invalid-message {
+  display: block
 }
