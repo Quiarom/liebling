@@ -35,6 +35,13 @@
   &.m-button__scroll {
     scroll-behavior: smooth;
   }
+
+  &.m-button__send {
+    width: 100px;
+    @include respond-to('medium') {
+      width: 142px;
+    }
+  }
  
 
   &.filled__blue {
