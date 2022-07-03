@@ -253,10 +253,11 @@
 .m-article-card__title {
   color: var(--titles-color) !important;
   font-family: "Poppins",  "Source Sans Pro", Helvetica, Arial, sans-serif;
-  letter-spacing: -0.035em;
-  line-height: 28px;
-  font-size: 19px;
+  font-style: normal;
   font-weight: 600;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: -0.035em;
   margin-top: 15px;
 }
 
@@ -277,10 +278,10 @@
   align-items: center;
   color: var(--titles-color);
   font-family: "Barlow", "Source Sans Pro", Helvetica, Arial, sans-serif ;
-  letter-spacing: 0.2px;
-  line-height: 1.286em;
-  font-size: 0.938rem;
+  font-style: normal;
   font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
 
   span:nth-child(2) {
     padding: 0 10px;
