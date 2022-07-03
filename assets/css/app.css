@@ -2618,13 +2618,13 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
   position: absolute;
   top: 20px;
   left: 20px;
-  color: black;
+  color: var(--titles-color);
   letter-spacing: -0.025px;
   line-height: 100%;
   font-size: 0.75rem;
   font-weight: 500;
   padding: 5px 5px;
-  background-color: white;
+  border: 1px solid gray;
   border-radius: 5px;
   display: inline-block;
 }
