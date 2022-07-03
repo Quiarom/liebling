@@ -1083,7 +1083,7 @@ fieldset {
   border-radius: 5px;
   color: #fff !important;
   width: 142px !important;
-  margin: auto;
+  margin-top: 65px;
   box-shadow: 0 2px 4px var(--button-shadow-color-normal), 0 0 0 transparent;
 }
 .m-button.filled__blue:hover {
