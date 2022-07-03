@@ -909,7 +909,7 @@
   border-radius: 5px;
   color: #fff !important;
   width: 142px !important;
-  margin-left: 14px !important;
+  margin: auto;
   box-shadow: 0 2px 4px var(--button-shadow-color-normal), 0 0 0 transparent;
 }
 .m-button.filled__blue:hover, .l-post-content button.filled__blue:hover:not(.m-icon-button):not(.kg-video-card button):not(.kg-audio-card button), .l-post-content .kg-button-card a.filled__blue.kg-btn:hover, .l-post-content .kg-header-card .filled__blue.kg-header-card-button:hover, .l-post-content .kg-product-card .filled__blue.kg-product-card-button:hover {
@@ -980,6 +980,11 @@
   100% {
     transform: translatex(0);
   }
+}
+
+.m-button-arrow-down {
+  width: 22px;
+  height: 22px;
 }
 
 .m-input, .l-post-content input:not(.kg-video-card input):not(.kg-audio-card input),

@@ -49,7 +49,7 @@
     border-radius: 5px;
     color: $white !important;
     width: 142px !important; 
-    margin-left: 14px !important;
+    margin: auto;
 
     @include bs(0 2px 4px var(--button-shadow-color-normal));
 
@@ -121,3 +121,7 @@
   }
 }
 
+.m-button-arrow-down {
+  width: 22px;
+  height: 22px;
+}
