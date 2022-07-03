@@ -909,7 +909,7 @@
   border-radius: 5px;
   color: #fff !important;
   width: 142px !important;
-  margin-top: 65px;
+  margin-top: 20px;
   box-shadow: 0 2px 4px var(--button-shadow-color-normal), 0 0 0 transparent;
 }
 .m-button.filled__blue:hover, .l-post-content button.filled__blue:hover:not(.m-icon-button):not(.kg-video-card button):not(.kg-audio-card button), .l-post-content .kg-button-card a.filled__blue.kg-btn:hover, .l-post-content .kg-header-card .filled__blue.kg-header-card-button:hover, .l-post-content .kg-product-card .filled__blue.kg-product-card-button:hover {
