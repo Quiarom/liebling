@@ -12,7 +12,7 @@
   @extend .focusable;
 
   &.outlined {
-    border: 1px solid var(--primary-foreground-color);
+    border: 1px solid gray;
   }
 
   &.filled {
@@ -90,7 +90,7 @@
     position: relative;
 
     &.active {
-      color: var(--primary-subtle-color);
+      color: gray;
     }
   }
 
@@ -216,7 +216,7 @@
       opacity: 0;
 
       circle {
-        stroke: var(--primary-subtle-color);
+        stroke: #0066FF;
         transform-origin: 50% 50%;
         @include transform(rotate(-90deg));
         @include transition(stroke-dashoffset 0.2s);

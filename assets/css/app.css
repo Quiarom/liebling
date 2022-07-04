@@ -1172,7 +1172,7 @@ fieldset {
   background-color: transparent;
 }
 .m-icon-button.outlined {
-  border: 1px solid var(--primary-foreground-color);
+  border: 1px solid gray;
 }
 .m-icon-button.filled {
   background-color: var(--background-color);
@@ -1246,7 +1246,7 @@ fieldset {
   position: relative;
 }
 .m-icon-button.more.active {
-  color: var(--primary-subtle-color);
+  color: gray;
 }
 .m-icon-button.in-pagination-left, .m-icon-button.in-pagination-right {
   width: 40px;
@@ -1366,7 +1366,7 @@ fieldset {
   opacity: 0;
 }
 .m-icon-button.progress svg circle {
-  stroke: var(--primary-subtle-color);
+  stroke: #0066FF;
   transform-origin: 50% 50%;
   transform: rotate(-90deg);
   transition: stroke-dashoffset 0.2s;
@@ -1528,6 +1528,7 @@ fieldset {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row-reverse;
   height: 50px;
   position: relative;
   z-index: 2;
@@ -2039,8 +2040,8 @@ fieldset {
   position: fixed;
   right: 20px;
   bottom: 45px;
-  width: 28px;
-  height: 28px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   overflow: hidden;
   z-index: 2;
@@ -2080,7 +2081,7 @@ fieldset {
   height: 100%;
   border-radius: 50%;
   overflow: hidden;
-  background-color: var(--toggle-darkmode-background-color);
+  border: 1px solid gray;
   z-index: 1;
 }
 .m-toggle-darkmode span {
