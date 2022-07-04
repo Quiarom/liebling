@@ -151,6 +151,11 @@
   @include respond-to('large') {
     width: 900px;
   }
+
+  .filled__blue {
+    margin-top: 0px;
+    margin-left: 14px;
+  }
 }
 
 .section-newsletter-form-container {

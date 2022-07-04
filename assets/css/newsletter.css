@@ -99,6 +99,10 @@
     width: 900px;
   }
 }
+.section-newsletter .filled__blue {
+  margin-top: 0px;
+  margin-left: 14px;
+}
 
 .section-newsletter-form-container {
   position: relative;
