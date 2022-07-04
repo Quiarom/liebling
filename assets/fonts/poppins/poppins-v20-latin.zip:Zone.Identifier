@@ -1,4 +1,0 @@
-[ZoneTransfer]
-ZoneId=3
-ReferrerUrl=https://google-webfonts-helper.herokuapp.com/fonts/poppins?subsets=latin
-HostUrl=https://google-webfonts-helper.herokuapp.com/api/fonts/poppins?download=zip&subsets=latin&variants=300,500,600,700,800,regular
