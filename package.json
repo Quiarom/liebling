@@ -5,7 +5,7 @@
     "url": "https://eduardogomez.io"
   },
   "config": {
-    "posts_per_page": 16,
+    "posts_per_page": 15,
     "image_sizes": {
       "xxs": {
         "width": 30
