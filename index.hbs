@@ -59,7 +59,7 @@ into the {body} of the default.hbs template --}}
                 {{#foreach featured}}
                   <div class="m-featured-slider__list__item swiper-slide">
                     <article class="m-featured-article {{#unless feature_image}}no-picture{{/unless}}">
-                      <div class="m-featured-article__picture">
+                      <div class="m-featured-article__picture lazy">
                         {{#if feature_image}}
                           <style>
                             #featured-bg-{{id}} {

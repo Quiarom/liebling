@@ -108,7 +108,9 @@
   height: 100%;
   z-index: 1;
 }
-
+#featured-bg-{
+  background-image: url('./assets/images/load-lazyload-gif.gif');
+}
 .m-article-card__picture-background {
   position: absolute;
   top: 0;
