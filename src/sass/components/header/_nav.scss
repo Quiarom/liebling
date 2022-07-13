@@ -127,6 +127,13 @@
       background: linear-gradient(90deg, var(--header-menu-gradient-first-color) 0, var(--header-menu-gradient-second-color));
     }
   }
+
+  .suscribe-button {
+    color: var(--titles-color);
+    letter-spacing: 0.2px;
+    line-height: 1.5;
+    font-size: 0.938rem;
+  }
 }
 
 .rtl {
