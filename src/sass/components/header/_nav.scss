@@ -106,15 +106,25 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  flex-direction: column;
 
   .suscribe-button {
-    color: var(--titles-color);
+    background-color: #0066FF !important;
+    color: #fff !important;
+
     letter-spacing: 0.2px;
     line-height: 1.5;
     font-size: 0.938rem;
+
+    // border: 1px solid gray;
+    border-radius: 6px;
+
+    padding: 5px 30px;
+    margin: 0px 10px;
   }
 
   @include respond-to('medium') {
+    flex-direction: row;
     flex-shrink: 0;
     position: relative;
     padding-left: 20px;
