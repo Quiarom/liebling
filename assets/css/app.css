@@ -900,6 +900,7 @@ textarea,
 /** Global styles */
 html {
   scroll-behavior: smooth;
+  color-scheme: light dark;
 }
 
 body {
@@ -1697,6 +1698,12 @@ fieldset {
     z-index: 2;
     background: linear-gradient(90deg, var(--header-menu-gradient-first-color) 0, var(--header-menu-gradient-second-color));
   }
+}
+.m-nav__right .suscribe-button {
+  color: var(--titles-color);
+  letter-spacing: 0.2px;
+  line-height: 1.5;
+  font-size: 0.938rem;
 }
 
 @media only screen and (min-width: 48rem) {
