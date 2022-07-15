@@ -172,7 +172,8 @@ into the {body} of the default.hbs template --}}
                 {{/if}}
                 {{#if primary_author.twitter}}
                   <li>
-                    <a href="https://twitter.com/{{primary_author.twitter}}" target="_blank" rel="noopener" aria-label="Twitter">
+                    <a href="https://twitter.com/intent/tweet?text={{encode title}}&url={{url absolute='true'}}&via=asilodigital"
+                    data-via="asilodigital" data-show-count="false" class="m-icon-button filled in-share" target="_blank" rel="noopener" aria-label="Twitter">
                       <span class="icon-twitter" aria-hidden="true"></span>
                     </a>
                   </li>
