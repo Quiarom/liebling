@@ -1,20 +1,25 @@
 .m-hero-description {
-  letter-spacing: 0.2px;
-  line-height: 1.5;
-  font-size: 0.938rem;
-  margin-bottom: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 108.5%;
+
+  /* or 46px */
+  text-align: center;
+  letter-spacing: -0.04em;
 
   @include respond-to('medium') {
-    font-size: 1.125rem;
+    font-size: 42px;
   }
 
   &.bigger {
-    line-height: 1.3;
-    font-size: 1.125rem;
+    line-height: 108.5%;
+    font-size: 18px;
     margin-bottom: 25px;
 
     @include respond-to('medium') {
-      font-size: 1.375rem;
+      font-size: 42px;
     }
   }
 
