@@ -905,6 +905,7 @@
   }
 }
 .m-button.filled__blue, .l-post-content button.filled__blue:not(.m-icon-button):not(.kg-video-card button):not(.kg-audio-card button), .l-post-content .kg-button-card a.filled__blue.kg-btn, .l-post-content .kg-header-card .filled__blue.kg-header-card-button, .l-post-content .kg-product-card .filled__blue.kg-product-card-button {
+  font-weight: bold;
   background-color: #0066FF !important;
   border-radius: 5px;
   color: #fff !important;

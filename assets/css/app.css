@@ -1079,6 +1079,7 @@ fieldset {
   }
 }
 .m-button.filled__blue {
+  font-weight: bold;
   background-color: #0066FF !important;
   border-radius: 5px;
   color: #fff !important;
@@ -2228,7 +2229,7 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
   color: var(--titles-color);
   font-family: "Poppins", "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 42px;
   line-height: 108.5%;
   /* or 46px */
@@ -2256,8 +2257,8 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
 .m-hero-description {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
+  font-weight: bold;
+  font-size: 1.5em;
   line-height: 108.5%;
   /* or 46px */
   text-align: center;
@@ -2270,8 +2271,6 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
 }
 .m-hero-description.bigger {
   line-height: 108.5%;
-  font-size: 18px;
-  margin-bottom: 25px;
 }
 @media only screen and (min-width: 48rem) {
   .m-hero-description.bigger {
