@@ -1,8 +1,8 @@
 .m-hero-description {
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
+  font-weight: bold;
+  font-size: 1.5em;
   line-height: 108.5%;
 
   /* or 46px */
@@ -15,9 +15,7 @@
 
   &.bigger {
     line-height: 108.5%;
-    font-size: 18px;
-    margin-bottom: 25px;
-
+    
     @include respond-to('medium') {
       font-size: 42px;
     }
