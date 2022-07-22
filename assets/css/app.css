@@ -1084,7 +1084,6 @@ fieldset {
   border-radius: 5px;
   color: #fff !important;
   width: 142px;
-  margin-top: 20px;
   box-shadow: 0 2px 4px var(--button-shadow-color-normal), 0 0 0 transparent;
 }
 .m-button.filled__blue:hover {
@@ -2263,6 +2262,7 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
   /* or 46px */
   text-align: center;
   letter-spacing: -0.04em;
+  margin-bottom: 20px;
 }
 @media only screen and (min-width: 48rem) {
   .m-hero-description {
