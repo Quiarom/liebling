@@ -32,7 +32,6 @@ into the {body} of the default.hbs template --}}
     {{#if @custom.use_custom_cta}}
       <a href="{{@custom.custom_cta_url}}" class="m-button filled">{{@custom.custom_cta_text}}</a>
     {{else}}
-      {{#if @labs.members}}
         {{!-- <a href="{{@site.url}}/nosotros" class="m-button filled m-button__about">{{t "Nosotros"}}</a> --}}
         <a href="#posts-sections" class="m-button filled__blue button__scroll js-newsletter">
           <svg xmlns="http://www.w3.org/2000/svg" class="m-button-arrow-down" viewBox="0 0 20 20" fill="currentColor">
@@ -42,7 +41,6 @@ into the {body} of the default.hbs template --}}
           {{t " Leer"}}
         </a>
         
-      {{/if}}
     {{/if}}
   </div>
   </section>
@@ -119,7 +117,6 @@ into the {body} of the default.hbs template --}}
   </div>
 </main>
 
-{{#if @labs.members}}
 <section class="section-newsletter__flex js-newsletter main-wrap">
 
   <div class="section-newsletter">
@@ -158,7 +155,7 @@ into the {body} of the default.hbs template --}}
   </div>
 
 </section>
- {{/if}}
+
 
 {{!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs --}}
 {{#contentFor "scripts"}}
