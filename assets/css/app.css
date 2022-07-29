@@ -2256,7 +2256,7 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
 .m-hero-description {
   font-family: "Poppins", "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.5em;
   line-height: 108.5%;
   /* or 46px */
@@ -2690,7 +2690,7 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
   color: var(--titles-color) !important;
   font-family: "Poppins", "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 19px;
   line-height: 28px;
   letter-spacing: -0.035em;
