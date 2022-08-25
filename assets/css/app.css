@@ -544,7 +544,7 @@ textarea,
   --article-shadow-normal: 0 10px 10px rgba(0, 0, 0, 0.08);
   --article-shadow-hover: 0 4px 60px 0 rgba(0, 0, 0, 0.2);
   --transparent-background-color: rgba(255, 255, 255, 0.99);
-  --footer-background-color: #0a0b0c;
+  --footer-background-color: #181818;
   --submenu-shadow-color-opacity: 0.25;
   --button-shadow-color-normal: rgba(108, 108, 108, 0.2);
   --button-shadow-color-hover: rgba(108, 108, 108, 0.3);
@@ -556,6 +556,8 @@ textarea,
   --header-menu-gradient-first-color: rgba(255, 255, 255, 0);
   --header-menu-gradient-second-color: rgba(255, 255, 255, 1);
   --kg-card-img-invert-color: 0;
+  --newsletter-section-color: #1b1f29;
+  --newsletter-input-color: rgb(20, 29, 46);
 }
 
 [data-theme=dark] {
@@ -583,6 +585,8 @@ textarea,
   --header-menu-gradient-first-color: rgba(17, 17, 17, 0);
   --header-menu-gradient-second-color: rgba(17, 17, 17, 0.65);
   --kg-card-img-invert-color: 1;
+  --newsletter-section-color: #0B111C;
+  --newsletter-input-color: rgb(20, 29, 46);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1511,9 +1515,6 @@ fieldset {
 .m-header.headroom--pinned .m-header__shadow {
   display: none;
 }
-.m-header.headroom--unpinned {
-  transform: translateY(-100%);
-}
 .m-header.submenu-is-active {
   background-color: var(--background-color);
 }
@@ -1680,8 +1681,9 @@ fieldset {
   height: 35px;
   letter-spacing: 0.2px;
   line-height: 1.5;
-  font-size: 0.938rem;
-  border: 1px solid gray;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid gray;
   border-radius: 6px;
   padding: 5px 30px;
   margin: 0px 10px;

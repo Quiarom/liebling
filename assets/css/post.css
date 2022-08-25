@@ -360,8 +360,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 10px;
-  height: 10px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   background-color: var(--titles-color);
   box-shadow: 0 0 0 10px var(--background-color), 0 0 0 transparent;
@@ -1132,7 +1132,7 @@
   height: 400px;
   border-radius: 16px;
   margin: 20px;
-  background-color: #0B111C;
+  background-color: var(--newsletter-section-color);
   text-align: center;
 }
 @media only screen and (min-width: 48rem) {
@@ -1183,8 +1183,8 @@
   height: 50px;
   outline: none;
   color: #CACACA;
-  background-color: #141D2E;
-  border: 1px solid #141D2E;
+  background-color: var(--newsletter-input-color);
+  border: 1px solid var(--newsletter-input-color);
   border-radius: 6px;
   margin: 0px 13px;
   padding: 13px 13px 13px 13px;
@@ -1205,7 +1205,7 @@
 }
 
 .section-newsletter h1 {
-  color: #fff !important;
+  color: white;
   font-family: "Poppins", "Source Sans Pro", Helvetica, Arial, sans-serif;
   letter-spacing: -0.035em;
   line-height: 27px;
@@ -1500,7 +1500,7 @@
   height: 400px;
   border-radius: 16px;
   margin: 20px;
-  background-color: #0B111C;
+  background-color: var(--newsletter-section-color);
   text-align: center;
 }
 @media only screen and (min-width: 48rem) {
@@ -1551,8 +1551,8 @@
   height: 50px;
   outline: none;
   color: #CACACA;
-  background-color: #141D2E;
-  border: 1px solid #141D2E;
+  background-color: var(--newsletter-input-color);
+  border: 1px solid var(--newsletter-input-color);
   border-radius: 6px;
   margin: 0px 13px;
   padding: 13px 13px 13px 13px;
@@ -1573,7 +1573,7 @@
 }
 
 .section-newsletter h1 {
-  color: #fff !important;
+  color: white;
   font-family: "Poppins", "Source Sans Pro", Helvetica, Arial, sans-serif;
   letter-spacing: -0.035em;
   line-height: 27px;
