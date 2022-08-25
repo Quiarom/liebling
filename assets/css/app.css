@@ -629,7 +629,7 @@ textarea,
   white-space: nowrap;
 }
 
-.focusable:focus, .m-toggle-darkmode input:focus, .m-icon-button:focus, .m-button:focus {
+.focusable:focus, .m-toggle-lightmode input:focus, .m-toggle-darkmode input:focus, .m-icon-button:focus, .m-button:focus {
   box-shadow: 0 0 0 2px var(--primary-subtle-color) !important;
 }
 
@@ -639,7 +639,7 @@ textarea,
   justify-content: center;
 }
 
-.no-appearance, .m-toggle-darkmode input, .m-input, .m-icon-button, .m-button {
+.no-appearance, .m-toggle-lightmode input, .m-toggle-darkmode input, .m-input, .m-icon-button, .m-button {
   -webkit-appearance: none !important;
   -moz-appearance: none !important;
        appearance: none !important;
@@ -1670,7 +1670,7 @@ fieldset {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: reverse;
 }
 .m-nav__right .suscribe-button {
   display: flex;
@@ -1685,7 +1685,6 @@ fieldset {
   border-radius: 6px;
   padding: 5px 30px;
   margin: 0px 10px;
-  margin-top: 10px;
 }
 .m-nav__right .suscribe-button:hover {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
@@ -2978,6 +2977,52 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
 
 .rtl .m-footer-social {
   direction: ltr;
+}
+
+.m-toggle-lightmode {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.m-toggle-lightmode input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  outline: 0;
+  border: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+.m-toggle-lightmode input::-moz-focus-inner {
+  border: 0;
+}
+.m-toggle-lightmode div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid gray;
+  z-index: 1;
+}
+.m-toggle-lightmode span {
+  color: var(--titles-color);
+  font-size: 0.9375rem;
+}
+.m-toggle-lightmode span.moon {
+  display: var(--toggle-darkmode-button-display-moon);
+}
+.m-toggle-lightmode span.sun {
+  display: var(--toggle-darkmode-button-display-sun);
+}
+
+_:-ms-fullscreen, :root .m-toggle-darkmode {
+  display: none;
 }
 
 [data-aos-duration="50"] [data-aos], [data-aos][data-aos][data-aos-duration="50"] {
