@@ -281,7 +281,7 @@
       height: 10px;
       border-radius: 50%;
       background-color: var(--titles-color);
-      @include bs(0 0 0 10px var(--titles-color));
+      @include bs(0 0 0 10px var(--background-color));
       @include transform(translate(-50%, -50%));
 
       @include respond-to("medium") {

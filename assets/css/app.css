@@ -2980,6 +2980,11 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
 }
 
 .m-toggle-lightmode {
+  position: relative;
+  right: auto;
+  bottom: auto;
+  margin-left: 20px;
+  z-index: auto;
   width: 35px;
   height: 35px;
   border-radius: 50%;
