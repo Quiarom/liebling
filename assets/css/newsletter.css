@@ -135,13 +135,18 @@
 .newsletter-input {
   width: 250px;
   height: 50px;
-  border: none;
   outline: none;
   color: #CACACA;
   background-color: #141D2E;
+  border: 1px solid #141D2E;
   border-radius: 6px;
   margin: 0px 13px;
   padding: 13px 13px 13px 13px;
+  box-shadow: none;
+}
+.newsletter-input:focus {
+  border-color: #0066FF;
+  box-shadow: 1px 1px 0 #0066FF;
 }
 @media only screen and (min-width: 48rem) {
   .newsletter-input {

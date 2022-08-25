@@ -109,18 +109,30 @@
   flex-direction: column;
 
   .suscribe-button {
-    background-color: #0066FF !important;
-    color: #fff !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    // background-color: #0066FF !important;
+    color: var(--titles-color);
+
+    height: 35px;
 
     letter-spacing: 0.2px;
     line-height: 1.5;
     font-size: 0.938rem;
 
-    // border: 1px solid gray;
+    border: 1px solid gray;
     border-radius: 6px;
 
     padding: 5px 30px;
     margin: 0px 10px;
+
+    &:hover{
+        box-shadow: 0 1px 3px 0 rgb(0 0 0 / 8%);
+        background-color: #7c7c7c1a;
+    } 
   }
 
   @include respond-to('medium') {

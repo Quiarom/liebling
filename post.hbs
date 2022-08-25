@@ -20,6 +20,18 @@ into the {body} of the default.hbs template --}}
 {{!-- Special header.hbs partial to generate the <header> tag --}}
 {{#post}}
   {{> header background=feature_image}}
+   {{!-- Inject styles of the hero image to make it responsive --}}
+              {{> hero background=feature_image}}
+              </section>
+              {{#if feature_image}}
+                {{#if feature_image_caption}}
+                  <div class="l-wrapper in-caption">
+                    <p class="m-small-text align-center">
+                      {{feature_image_caption}}
+                    </p>
+                  </div>
+                {{/if}}
+              {{/if}}
 {{/post}}
 
 <main class="main-wrap">
@@ -44,18 +56,6 @@ into the {body} of the default.hbs template --}}
                 {{/if}}
                 <span class="m-heading__meta__time">{{date published_at}}</span>
               </div>
-               {{!-- Inject styles of the hero image to make it responsive --}}
-              {{> hero background=feature_image}}
-              </section>
-              {{#if feature_image}}
-                {{#if feature_image_caption}}
-                  <div class="l-wrapper in-caption">
-                    <p class="m-small-text align-center">
-                      {{feature_image_caption}}
-                    </p>
-                  </div>
-                {{/if}}
-              {{/if}}
             </header>
             <div class="pos-relative js-post-content">
               <div class="m-share">
