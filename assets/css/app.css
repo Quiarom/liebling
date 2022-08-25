@@ -2983,6 +2983,17 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
   width: 35px;
   height: 35px;
   border-radius: 50%;
+  overflow: hidden;
+  z-index: 2;
+}
+@media only screen and (min-width: 48rem) {
+  .m-toggle-lightmode {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    margin-left: 20px;
+    z-index: auto;
+  }
 }
 .m-toggle-lightmode input {
   position: absolute;

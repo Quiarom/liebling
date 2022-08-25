@@ -2,6 +2,16 @@
     width: 35px;
     height: 35px;
     border-radius: 50%;
+    overflow: hidden;
+    z-index: 2;
+
+    @include respond-to('medium') {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        margin-left: 20px;
+        z-index: auto;
+    }
 
     input {
         position: absolute;
