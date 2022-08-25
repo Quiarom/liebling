@@ -1669,7 +1669,7 @@ fieldset {
 .m-nav__right {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   flex-direction: column;
 }
 .m-nav__right .suscribe-button {
@@ -1685,10 +1685,16 @@ fieldset {
   border-radius: 6px;
   padding: 5px 30px;
   margin: 0px 10px;
+  margin-top: 10px;
 }
 .m-nav__right .suscribe-button:hover {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
   background-color: #7c7c7c1a;
+}
+@media only screen and (min-width: 48rem) {
+  .m-nav__right .suscribe-button {
+    margin-top: 0px;
+  }
 }
 @media only screen and (min-width: 48rem) {
   .m-nav__right {
@@ -1711,12 +1717,6 @@ fieldset {
     z-index: 2;
     background: linear-gradient(90deg, var(--header-menu-gradient-first-color) 0, var(--header-menu-gradient-second-color));
   }
-}
-.m-nav__right .suscribe-button {
-  color: var(--titles-color);
-  letter-spacing: 0.2px;
-  line-height: 1.5;
-  font-size: 0.938rem;
 }
 
 @media only screen and (min-width: 48rem) {
@@ -2358,6 +2358,7 @@ _:-ms-fullscreen, :root .m-toggle-darkmode {
 .m-heading {
   text-align: center;
   margin: 0 auto 40px;
+  margin-top: 35px;
 }
 @media only screen and (min-width: 48rem) {
   .m-heading {

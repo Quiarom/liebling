@@ -1621,3 +1621,27 @@
 .section-newsletter-form.invalid .invalid-message {
   display: block;
 }
+
+.post-template .m-hero.with-picture {
+  min-height: 0 !important;
+  padding: 50px 0 0;
+}
+
+.post-template .m-hero__picture {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: auto;
+}
+
+.post-template .m-hero__picture img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 48rem) {
+  .post-template .m-hero.with-picture {
+    padding: 67px 0 0;
+  }
+}

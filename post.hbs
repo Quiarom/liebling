@@ -21,17 +21,7 @@ into the {body} of the default.hbs template --}}
 {{#post}}
   {{> header background=feature_image}}
    {{!-- Inject styles of the hero image to make it responsive --}}
-              {{> hero background=feature_image}}
-              </section>
-              {{#if feature_image}}
-                {{#if feature_image_caption}}
-                  <div class="l-wrapper in-caption">
-                    <p class="m-small-text align-center">
-                      {{feature_image_caption}}
-                    </p>
-                  </div>
-                {{/if}}
-              {{/if}}
+             
 {{/post}}
 
 <main class="main-wrap">
@@ -57,6 +47,17 @@ into the {body} of the default.hbs template --}}
                 <span class="m-heading__meta__time">{{date published_at}}</span>
               </div>
             </header>
+            {{> hero_post background=feature_image}}
+              </section>
+              {{#if feature_image}}
+                {{#if feature_image_caption}}
+                  <div class="l-wrapper in-caption">
+                    <p class="m-small-text align-center">
+                      {{feature_image_caption}}
+                    </p>
+                  </div>
+                {{/if}}
+              {{/if}}
             <div class="pos-relative js-post-content">
               <div class="m-share">
                 <div class="m-share__content js-sticky">
