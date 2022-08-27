@@ -178,4 +178,4 @@ module.exports = __webpack_require__(/*! /home/quiarom/Documents/projects-world/
 
 /***/ })
 
-},[[0,"/js/manifest","/js/vendor"]]]);
+},[[0,"/js/manifest"]]]);

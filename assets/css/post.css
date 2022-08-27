@@ -1134,6 +1134,7 @@
   margin: 20px;
   background-color: var(--newsletter-section-color);
   text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 @media only screen and (min-width: 48rem) {
   .section-newsletter {
@@ -1502,6 +1503,7 @@
   margin: 20px;
   background-color: var(--newsletter-section-color);
   text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 @media only screen and (min-width: 48rem) {
   .section-newsletter {
