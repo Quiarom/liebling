@@ -556,7 +556,7 @@ textarea,
   --header-menu-gradient-first-color: rgba(255, 255, 255, 0);
   --header-menu-gradient-second-color: rgba(255, 255, 255, 1);
   --kg-card-img-invert-color: 0;
-  --newsletter-section-color: #1b1f29;
+  --newsletter-section-color: #0B111C;
   --newsletter-input-color: rgb(20, 29, 46);
 }
 
@@ -1683,7 +1683,7 @@ fieldset {
   line-height: 1.5;
   font-size: 1rem;
   font-weight: 600;
-  border: 2px solid gray;
+  border: 1px solid gray;
   border-radius: 6px;
   padding: 5px 30px;
   margin: 0px 10px;
