@@ -556,8 +556,8 @@ textarea,
   --header-menu-gradient-first-color: rgba(255, 255, 255, 0);
   --header-menu-gradient-second-color: rgba(255, 255, 255, 1);
   --kg-card-img-invert-color: 0;
-  --newsletter-section-color: #0B111C;
-  --newsletter-input-color: rgb(20, 29, 46);
+  --newsletter-section-color: #1E1E1E;
+  --newsletter-input-color: #2E2E2E;
 }
 
 [data-theme=dark] {
